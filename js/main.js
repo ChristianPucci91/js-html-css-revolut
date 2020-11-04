@@ -11,6 +11,11 @@
 
 
 
-$(document).ready(function () {
+$(document).ready(function () { // inizio document ready
+  // creo un evento click
+ $(".dropdown").click(function () {
+   // dico all'evento che a seconda dove ho cliccato deve aggiungere la classe ".show" al dropdown-menu
+   $(".dropdown-menu",this).toggleClass("show");
+ })
 
 }); // fine document ready

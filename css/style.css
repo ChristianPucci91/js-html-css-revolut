@@ -97,3 +97,7 @@ body {
     font-size: 10px;
     color: #eb008d;
 }
+
+.show {
+  display: block;
+}
