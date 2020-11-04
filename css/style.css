@@ -1,0 +1,99 @@
+/* regole generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 12px;
+}
+
+.list {
+    display: inline-block;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.white {
+  color:#fff;
+}
+
+.black {
+  color:#000;
+}
+
+/* Regole header generali */
+
+#header {
+    padding: 0 30px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#header .header_left .menu_left li,
+#header .header_right .menu_right li {
+    list-style: none;
+    padding: 20px 5px;
+}
+
+#header .header_right .menu_right li.dropdown {
+    position: relative;
+}
+
+#header .header_left .menu_left li a,
+#header .header_right .menu_right li a {
+    text-decoration: none;
+}
+
+#header .header_left {
+    align-items: center;
+}
+
+/* Button style */
+
+.button {
+    padding: 20px 5px;
+    border-radius: 25px;
+    background: #eb008d;
+    padding: 10px 15px;
+}
+
+
+/* Regole generali menu dropdown */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 200px;
+    box-shadow: 0 2px 2px 2px #eeeeee;
+    padding: 10px;
+}
+
+.dropdown-menu a {
+    margin-bottom: 30px;
+    display: block;
+}
+
+.dropdown-menu a:nth-last-child(1) {
+    margin-bottom: 10px;
+}
+
+/* regole scritta rosa  */
+.affiliate {
+    position: relative;
+}
+
+.new {
+    position: absolute;
+    bottom: 60%;
+    left: 14%;
+    font-size: 10px;
+    color: #eb008d;
+}

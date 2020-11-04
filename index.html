@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Revolut dropdown by Christian Pucci</title>
+</head>
+<body>
+
+    <header><!-- inizio Header -->
+
+        <div id="header" class="flex"><!-- container  -->
+
+            <div class="header_left">  <!-- container sinistro -->
+
+                <ul class="menu_left flex">
+                  <!-- logo revolut + 2 liste  -->
+                    <li class="list"><a href="#"><img src="img/logo-revolut.png" alt="revolut logo" width="90px"></a></li>
+                    <li class="list black"><a href="#">PERSONALE</a></li>
+                    <li class="list"><a href="#">BUSINESS</a></li>
+                </ul>
+
+            </div> <!-- fine header sinistro -->
+
+            <div class="header_right">  <!-- header destro -->
+
+                <ul class="menu_right">
+                    <li class="dropdown list"> <!-- lista iniziale -->
+                        <a href="#">Tariffazione <i class="fas fa-angle-down"></i></a>
+                        <!-- creo 1l primo dropdown con display none -->
+                        <div class="dropdown-menu dspl-none">
+                            <a href="#">Minorenni</a>
+                            <a href="#">Maggiorenni</a>
+                            <a href="#">over 65+</a>
+                        </div>
+                    </li>
+                    <li class="dropdown list">
+                        <a href="#">Conti <i class="fas fa-angle-down"></i></a>
+                        <!-- secondo dropdown -->
+                        <div class="dropdown-menu">
+                            <a href="#">Standard</a>
+                            <a href="#">Premium</a>
+                            <a href="#">Metal</a>
+                            <a href="#">Confronta i piani</a>
+                        </div>
+                    </li>
+                    <li class="dropdown list">
+                        <a href="#">Prodotti <i class="fas fa-angle-down"></i></a>
+                        <!-- terzo dropdown -->
+                        <div class="dropdown-menu">
+                            <a href="#">Trasferimenti di denaro</a>
+                            <a href="#">Vault</a>
+                            <a href="#">Gestione budget</a>
+                            <a href="#">Criptovaluta</a>
+                        </div>
+                    </li>
+                    <li class="dropdown list">
+                        <a href="#">Azienda <i class="fas fa-angle-down"></i></a>
+                        <!-- quarto dropdown -->
+                        <div class="dropdown-menu">
+                            <a href="#">Chi Siamo</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Lavora con noi</a>
+                            <a class="affiliate" href="#">Affiliates<span class="new">Nuovo</span></a>
+                            <a href="#">Contatto</a>
+
+                        </div>
+                    </li>
+                    <li class="dropdown list">
+                        <a href="#">Aiuto <i class="fas fa-angle-down"></i></a>
+                        <!-- quinto dropdown -->
+                        <div class="dropdown-menu">
+                            <a href="#">Centro assistenza</a>
+                            <a href="#">Community</a>
+                            <a href="#">Sicurezza</a>
+                            <a href="#">Stato di sistema</a>
+                            <a href="#">API sviluppatore</a>
+                        </div>
+                    </li>
+                    <li class="dropdown list">
+                        <a href="#">IT <i class="fas fa-angle-down"></i></a>
+                        <!-- sesto dropdown -->
+                        <div class="dropdown-menu">
+                            <a href="#">EN</a>
+                            <a href="#">FR</a>
+                            <a href="#">DE</a>
+                            <a href="#">POR</a>
+                            <a href="#">CH</a>
+                            <a href="#">ES</a>
+                            <a href="#">RU</a>
+                        </div>
+                    </li>
+                    <!-- bottone scarica app -->
+                    <li class="list white"><a class="button" href="#">Scarica l'app</a></li>
+                </ul>
+
+            </div> <!-- fine header destro -->
+
+        </div>
+    </header>
+    <!-- fine Header -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
