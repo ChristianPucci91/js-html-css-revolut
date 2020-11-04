@@ -12,10 +12,15 @@
 
 
 $(document).ready(function () { // inizio document ready
+  // dichiaro delle variabili
+ var dropDown =  $(".dropdown");
   // creo un evento click
- $(".dropdown").click(function () {
-   // dico all'evento che a seconda dove ho cliccato deve aggiungere la classe ".show" al dropdown-menu
-   $(".dropdown-menu",this).toggleClass("show");
+ dropDown.click(function () {
+   // dico ai dropdown menu che non sono cliccati in quel momento di rimanere su
+   // mentre con il "this" dico all'evento cliccato di fare un toggle
+   $(".dropdown-menu").slideUp();
+   $(this).children(".dropdown-menu").toggle();
+
  })
 
 }); // fine document ready

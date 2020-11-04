@@ -56,6 +56,24 @@ body {
     align-items: center;
 }
 
+#header .header_left .menu_left li:hover > a,
+#header .header_right .menu_right li:hover > a {
+    font-weight: 700;
+}
+
+#header .header_left .menu_left li a:hover,
+#header .header_right .menu_right li a:hover {
+    font-weight: 700;
+}
+
+#header .header_left .menu_left li {
+    margin-right: 30px;
+}
+
+#header .header_right .menu_right li {
+    margin-left: 30px;
+}
+
 /* Button style */
 
 .button {
@@ -100,4 +118,8 @@ body {
 
 .show {
   display: block;
+}2
+
+.hide {
+  display: none;
 }
